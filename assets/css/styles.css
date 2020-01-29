@@ -245,6 +245,11 @@ main {
   font-weight: 500;
 }
 
+[contentEditable="true"]:empty:not(:focus):before {
+  content: attr(data-text);
+  color: rgba(0, 0, 0, 0.6);
+}
+
 #input:focus {
   outline-color: none;
 }
