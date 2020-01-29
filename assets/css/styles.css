@@ -98,6 +98,10 @@ main {
   margin-right: 1em;
 }
 
+.side-icons svg {
+  fill: rgba(0, 0, 0, 1);
+}
+
 .left li {
   margin-top: 5px;
   margin-bottom: 0.5em;
